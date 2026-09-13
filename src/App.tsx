@@ -1,12 +1,9 @@
-import './App.css'
+import Navbar from "./components/Navbar";
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <h1 className='text-red-400 font-bold text-2xl'>Hello Dev</h1>
-    </>
-  )
+    <div id="top">
+      <Navbar />
+    </div>
+  );
 }
-
-export default App
