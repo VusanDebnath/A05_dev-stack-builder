@@ -91,4 +91,4 @@ onAdd), ar child shudhu oi function ta call kore (jemon button click hole) jarfo
 ## 📤 Submission
 
 - GitHub Repository Link: https://github.com/VusanDebnath/A05_dev-stack-builder
-- Live Site Link: 
+- Live Site Link: https://dev-stack-builder-v.netlify.app/
