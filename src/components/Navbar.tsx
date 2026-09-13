@@ -17,7 +17,6 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur">
       <div className="mx-auto grid max-w-7xl grid-cols-[auto_1fr_auto] items-center px-5 py-4 md:flex md:justify-between md:px-8">
-
         {/* Menu Icon ta md device porjonto hidden thakbe*/}
         <button
           type="button"
@@ -59,7 +58,7 @@ export default function Navbar() {
             Sign In
           </button>
           <button
-            className={`${BRAND_GRADIENT} rounded-full px-3 py-2 text-xs font-semibold text-white sm:px-4 sm:text-sm`}
+            className={`${BRAND_GRADIENT} rounded-full px-3 py-2 text-xs font-semibold text-white transition-opacity hover:opacity-90 sm:px-4 sm:text-sm`}
           >
             Sign Up
           </button>
@@ -88,7 +87,6 @@ export default function Navbar() {
           </ul>
         </nav>
       )}
-
     </header>
   );
 }
